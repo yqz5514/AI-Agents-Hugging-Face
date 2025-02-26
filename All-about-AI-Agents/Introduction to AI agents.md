@@ -18,6 +18,13 @@ The scope of possible actions depends on what the agent has been equipped with. 
 
 5. Tools: Tools provide the Agent with the ability to execute actions a text-generation model cannot perform natively, such as making coffee or generating images. The design of the Tools is very important and has a great impact on the quality of your Agent.
 
+6. special tokens in LLM: The LLM uses these tokens to open and close the structured components of its generation. For example, to indicate the start or end of a sequence, message, or response. Moreover, the input prompts that we pass to the model are also structured with special tokens. The most important of those is the End of sequence token (EOS).
+
+
+
+
+
+
 
 ---
 ## tree
@@ -37,6 +44,24 @@ The scope of possible actions depends on what the agent has been equipped with. 
 │   │
 │   ├── what type of tasks can an agent do?
 │   │   ├── An Agent can perform any task we implement via Tools to complete Actions.
+│   │
+│   ├──what is LLM?
+│   │   ├── An LLM is a type of AI model that excels at understanding and generating human language.
+│   │   ├── Most LLMs nowadays are built on the Transformer architecture—a deep learning architecture based on the “Attention” algorithm
+│   │   ├── its objective is to predict the next token, given a sequence of previous tokens.
+│   │   ├── LLMs are said to be autoregressive, meaning that the output from one pass becomes the input for the next one.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 --
