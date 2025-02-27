@@ -50,12 +50,15 @@ The scope of possible actions depends on what the agent has been equipped with. 
 │   │   ├── Most LLMs nowadays are built on the Transformer architecture—a deep learning architecture based on the “Attention” algorithm
 │   │   ├── its objective is to predict the next token, given a sequence of previous tokens.
 │   │   ├── LLMs are said to be autoregressive, meaning that the output from one pass becomes the input for the next one.
-
-
-
-
-
-
+│   │   ├── built on the Transformer architecture
+│   │   │   ├── Encoders:An encoder-based Transformer takes text (or other data) as input and outputs a dense representation (or embedding) of that text.(BERT from GG, Text classification, semantic search, Named Entity Recognition,Typical Size: Millions of parameters)
+│   │   │   ├── Decoders: A decoder-based Transformer focuses on generating new tokens to complete a sequence, one token at a time.(Llama from Meta, Use Cases: Text generation, chatbots, code generation, Typical Size: Billions (in the US sense, i.e., 10^9) of parameters)
+│   │   │   ├── Seq2Seq (Encoder–Decoder): A sequence-to-sequence Transformer combines an encoder and a decoder. The encoder first processes the input sequence into a context representation, then the decoder generates an output sequence.(Example: T5, BART,Use Cases: Translation, Summarization, Paraphrasing,Typical Size: Millions of parameters) 
+│   │
+│   ├── Messages and Special Tokens
+│   │   ├── Messages: The Underlying System of LLMs
+│   │   │   ├── System Messages: how the model should behave. They serve as persistent instructions, guiding every subsequent interaction.
+│   │   │   │   ├── When using Agents, the System Message also gives information about the available tools, provides instructions to the model on how to format the actions to take, and includes guidelines on how the thought process should be segmented.
 
 
 
