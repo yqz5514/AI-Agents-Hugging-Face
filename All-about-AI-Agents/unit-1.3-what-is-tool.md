@@ -194,3 +194,19 @@ print(calculator.to_string())
 ### ❓ Q3: Why is automating tool descriptions important?
 #### ✅ Answer: Automating descriptions ensures consistency, reduces manual errors, and simplifies LLM integration by providing structured, machine-readable tool specifications.
 
+### What is AI tool?
+- An executable process or external API that allows agents to perform specific tasks and interact with external environments
+- Functions that give LLMs extra capabilities, such as performing calculations or accessing external data.
+
+### How do AI agents use tools as a form of “acting” in an environment?
+-  By asking the LLM to generate tool invocation code when appropriate and running tools on behalf of the model
+
+### Which of the following best describes the role of special tokens in LLMs?
+- They serve specific functions like marking the end of a sequence (EOS) or separating different message roles in chat models
+
+### How do AI chat models process user messages internally?
+- They convert user messages into a formatted prompt by concatenating system, user, and assistant messages
+
+### How to Define a Tool: By providing a clear textual description, inputs, outputs, and a callable function.
+
+### Why Tools Are Essential: They enable Agents to overcome the limitations of static model training, handle real-time tasks, and perform specialized actions.
