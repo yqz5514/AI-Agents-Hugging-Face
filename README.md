@@ -1,4 +1,4 @@
-# AI-Agents-Hugging-Face
+# AI-Agents-Hugging-Face-
 #### 📖 Study AI Agents in theory, design, and practice.
 #### 🧑‍💻 Learn to use established AI Agent libraries such as smolagents, LangChain, and LlamaIndex.
 #### 💾 Share your agents on the Hugging Face Hub and explore agents created by the community.
